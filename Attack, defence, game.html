@@ -1,0 +1,30 @@
+<html>
+  <head><title>Attack-Defence</title></head>
+  <body>
+
+    <button class="attack" onclick="
+      const attack = Math.random();
+      if (attack <= 0.5) {
+        alert('You win!');
+      } else{
+        alert('The enemy defended. You lost');
+      } 
+      ">
+      Attack
+    </button>
+
+    <button class="defence" onclick="
+    const defence = Math.random();
+    if (defence >= 0.5) {
+      alert('You were successful in defending!');
+    } else{
+      alert('You were attacked and the enemy won!');
+    }
+    ">
+      Defence
+    </button>
+    <script>
+
+    </script>
+  </body>
+</html>
